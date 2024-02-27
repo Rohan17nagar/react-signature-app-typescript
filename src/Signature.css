@@ -1,0 +1,52 @@
+/* Color buttons */
+.color-button {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.color-button:hover {
+  transform: scale(1.1);
+}
+
+/* Pen size buttons */
+.pen-size-button {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  color: #333;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.pen-size-button:hover {
+  background-color: #ddd;
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 0.625rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
