@@ -43,8 +43,8 @@ const SignatureCapture: React.FC = () => {
           img,
           0,
           0,
-          signatureRef.current.width,
-          signatureRef.current.height
+          signatureRef.current !== null ? signatureRef.current.width : 0,
+          signatureRef.current !== null ? signatureRef.current.height : 0
         );
       };
     }
