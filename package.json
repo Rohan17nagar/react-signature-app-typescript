@@ -1,7 +1,7 @@
 {
   "name": "react-signature-app",
   "homepage" : "https://rohan17nagar.github.io/react-signature-app-typescript",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
